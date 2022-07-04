@@ -1,0 +1,56 @@
+/***********************************
+common css
+************************************/
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 16px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/***********************************
+main css
+************************************/
+.hero_area {
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.flexible {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.half_area {
+    width: 50%;
+    padding-left: 6%;
+    /* padding-right: 50px; */
+}
+
+.half_area img {
+    width: 80%;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 550;
+}
+span{
+    color: orange;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+    color: dimgrey;
+}
